@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1696340218290' stop='1696340218306'>
+    <name>Test Case</name>
+    <title>Test Case</title>
+    <test-cases>
+        <test-case start='1696340218290' status='failed' stop='1696340249013'>
+            <name>Go to basket with 9 different item.</name>
+            <title>Go to basket with 9 different item.</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Firefox 118.0 / Windows 10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>AssertionError: expected false to be truthy</message>
+                <stack-trace>AssertionError: expected false to be truthy
+                
+                Browser: Firefox 118.0 / Windows 10
+                
+                   49 |    }
+                   50 |
+                   51 |    async goToBasket(){
+                   52 |        await t
+                   53 |        .click(this.basketNav)
+                 > 54 |        .expect(this.basketTitleItem.visible).ok()
+                   55 |        .expect(this.basketPriceItem.visible).ok()
+                   56 |        .expect(this.basketPrice.visible).ok()
+                   57 |        .click(this.goToBasketBtn)
+                   58 |        .expect(this.basketHeader.visible).ok()
+                   59 |    }
+                
+                   at &lt;anonymous> (E:\testcafe\pages\HomePage.js:54:47)
+                   at asyncGeneratorStep (E:\testcafe\pages\HomePage.js:2:45)
+                   at _next (E:\testcafe\pages\HomePage.js:2:45)
+                   at &lt;anonymous> (E:\testcafe\pages\HomePage.js:2:45)
+                   at &lt;anonymous> (E:\testcafe\pages\HomePage.js:2:45)
+                   at HomePage.goToBasket [as goToBasket] (E:\testcafe\pages\HomePage.js:58:48)
+                   at &lt;anonymous> (E:\testcafe\tests\testcase.js:34:24)
+                   at asyncGeneratorStep (E:\testcafe\tests\testcase.js:2:42)
+                   at _next (E:\testcafe\tests\testcase.js:2:42)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

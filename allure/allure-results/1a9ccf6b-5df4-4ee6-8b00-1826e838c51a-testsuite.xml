@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1696340172066' stop='1696340172066'>
+    <name>Test Case</name>
+    <title>Test Case</title>
+    <test-cases>
+        <test-case start='1696340172066' status='passed' stop='1696340185650'>
+            <name>Go to basket with 1 non-promotional item.</name>
+            <title>Go to basket with 1 non-promotional item.</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Firefox 118.0 / Windows 10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been passed.</message>
+                <stack-trace>no error</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

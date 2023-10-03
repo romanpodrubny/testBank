@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Oct 03 16:36:27 MSK 2023","Tue Oct 03 16:36:42 MSK 2023","15338","","Test Case","","Test Case","Go to basket with 1 promotional item.","Go to basket with 1 promotional item.",""
+"failed","Tue Oct 03 16:35:58 MSK 2023","Tue Oct 03 16:36:16 MSK 2023","18451","","Test Case","","Test Case","Go to empty basket","Go to empty basket",""
+"passed","Tue Oct 03 16:36:12 MSK 2023","Tue Oct 03 16:36:25 MSK 2023","13584","","Test Case","","Test Case","Go to basket with 1 non-promotional item.","Go to basket with 1 non-promotional item.",""
+"failed","Tue Oct 03 16:36:58 MSK 2023","Tue Oct 03 16:37:29 MSK 2023","30723","","Test Case","","Test Case","Go to basket with 9 different item.","Go to basket with 9 different item.",""
+"failed","Tue Oct 03 16:37:13 MSK 2023","Tue Oct 03 16:37:28 MSK 2023","15096","","Test Case","","Test Case","Go to basket with 9 same promotional item.","Go to basket with 9 same promotional item.",""

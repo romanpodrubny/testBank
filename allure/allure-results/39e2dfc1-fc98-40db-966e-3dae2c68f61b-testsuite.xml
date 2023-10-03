@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1696340233433' stop='1696340233449'>
+    <name>Test Case</name>
+    <title>Test Case</title>
+    <test-cases>
+        <test-case start='1696340233433' status='failed' stop='1696340248529'>
+            <name>Go to basket with 9 same promotional item.</name>
+            <title>Go to basket with 9 same promotional item.</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Firefox 118.0 / Windows 10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>AssertionError: expected false to be truthy</message>
+                <stack-trace>AssertionError: expected false to be truthy
+                
+                Browser: Firefox 118.0 / Windows 10
+                
+                   26 |        } 
+                   27 |        else{
+                   28 |            await t
+                   29 |            .click(this.basketNav)
+                   30 |            .wait(3000)
+                 > 31 |            .expect(this.basketWindow.visible).ok()
+                   32 |            .click(this.clearBasketBtn)
+                   33 |            .expect(this.basketCount.textContent).contains('0')
+                   34 |        }
+                   35 |        
+                   36 |    }
+                
+                   at &lt;anonymous> (E:\testcafe\pages\HomePage.js:31:48)
+                   at asyncGeneratorStep (E:\testcafe\pages\HomePage.js:2:45)
+                   at _next (E:\testcafe\pages\HomePage.js:2:45)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
